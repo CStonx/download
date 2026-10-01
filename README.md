@@ -44,7 +44,7 @@ Configuration requise : Windows 10 ou 11 (64 bits), Steam et Counter-Strike 2.
 
 1. Télécharge **`CStonx-Setup-X.Y.Z.exe`** (recommandé) ou **`CStonx-portable.zip`** depuis la [dernière version](https://github.com/CStonx/download/releases/latest).
 2. Lance-le. Au premier lancement, Windows peut afficher un avertissement SmartScreen : clique sur **Informations complémentaires**, puis **Exécuter quand même**.
-3. Sur le [site CStonx](http://51.38.187.74:7313), connecte-toi avec Steam et **demande l'accès** (l'accès est validé à la main).
+3. Sur le [site CStonx](https://cstonx.thaskow.fr), connecte-toi avec Steam et **demande l'accès** (l'accès est validé à la main).
 4. Une fois validé, récupère ta **clé personnelle** (page « Mon accès » ou Réglages de ta page), colle-la dans le logiciel, onglet **Accueil**, puis **Enregistrer**.
 5. Lance CS2 : l'onglet Accueil du logiciel doit afficher **Tout est prêt**.
 
