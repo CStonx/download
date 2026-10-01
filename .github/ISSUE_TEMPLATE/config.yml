@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Site CStonx
+    url: http://51.38.187.74:7313
+    about: Demande d'accès, clé personnelle et forum
+  - name: Signaler une faille de sécurité
+    url: https://github.com/CStonx/download/security/policy
+    about: En privé, jamais dans un ticket public
