@@ -15,4 +15,8 @@ Indique la version concernée, les étapes pour reproduire et l'impact. Tu reço
 
 ## Vérifier un fichier
 
-Toutes les versions officielles sont publiées sur ce dépôt uniquement, avec un fichier `SHA256SUMS.txt`. Les mises à jour faites depuis le logiciel sont signées : une version dont la signature n'est pas valide est refusée.
+Les versions officielles sont publiées sur ce dépôt, avec un fichier `SHA256SUMS.txt`, et livrées par la mise à jour intégrée au logiciel depuis le site [cstonx.thaskow.fr](https://cstonx.thaskow.fr). Aucune autre source n'est officielle.
+
+- **Mise à jour intégrée** : le manifeste des versions est signé (ECDSA P-256) et le logiciel vérifie la signature, la taille et l'empreinte SHA-256 du fichier téléchargé. Une version dont la signature n'est pas valide, ou plus ancienne que la version installée, est refusée.
+- **Téléchargement manuel** : `SHA256SUMS.txt` n'est pas signé. Il permet de détecter un fichier corrompu, pas de prouver son origine : télécharge uniquement depuis ce dépôt.
+- **Signature Windows** : les exécutables ne sont pas encore signés (Authenticode), d'où l'avertissement SmartScreen au premier lancement.

@@ -7,7 +7,8 @@
 <p align="center">
   <b>Sache contre qui tu joues.</b><br>
   Les stats des 10 joueurs de ta partie CS2, directement dans l'overlay Steam.<br>
-  <a href="https://cstonx.thaskow.fr"><b>cstonx.thaskow.fr</b></a>
+  <a href="https://cstonx.thaskow.fr"><b>cstonx.thaskow.fr</b></a><br>
+  <sub><a href="#english">English below</a></sub>
 </p>
 
 <p align="center">
@@ -29,7 +30,7 @@
 
 ## Ce que fait CStonx
 
-Pendant une partie Premier, Compétitif ou FACEIT, le logiciel repère les joueurs de ta partie, et le [site CStonx](https://cstonx.thaskow.fr) affiche leurs stats dans le navigateur de l'overlay Steam (**Maj + Tab**).
+CStonx est un overlay de stats pour Counter-Strike 2, dans l'esprit de Porofessor pour League of Legends. Pendant une partie Premier, Compétitif ou FACEIT, le logiciel repère les joueurs de ta partie, et le [site CStonx](https://cstonx.thaskow.fr) affiche leurs stats dans le navigateur de l'overlay Steam (**Maj + Tab**).
 
 - **Les 10 joueurs d'un coup** : Leetify, FACEIT, Premier, Steam, et un indice de confiance pour repérer les comptes suspects.
 - **La partie en direct** : score, rounds, argent, vie et arme du joueur suivi, stats de fin de match.
@@ -90,13 +91,25 @@ Le résultat doit être identique à la ligne correspondante de `SHA256SUMS.txt`
 ## Désinstaller
 
 - **Version installée** : Paramètres Windows › Applications › CStonx.
-- **Version portable** : onglet Counter-Strike 2 › **Tout nettoyer**, puis supprime l'exe.
+- **Version portable** : onglet **CS2** › **Tout nettoyer**, puis supprime l'exe.
 
 ## Support
 
 - **Le site** : [cstonx.thaskow.fr](https://cstonx.thaskow.fr), avec le [forum](https://cstonx.thaskow.fr/forum) pour les questions et les idées.
 - **Un bug ?** [Ouvre un ticket](https://github.com/CStonx/download/issues/new/choose).
 - **Une faille de sécurité ?** Lis la [politique de sécurité](SECURITY.md) : ne la publie pas dans un ticket.
+
+## English
+
+**Know who you're playing against.** CStonx is a free CS2 stats overlay for Windows, a kind of Porofessor for Counter-Strike 2: during a Premier, Competitive or FACEIT match, it identifies the 10 players of your game and the [CStonx website](https://cstonx.thaskow.fr/en) shows their stats (Leetify, FACEIT level and Elo, Premier rating, Steam profile, trust score to spot suspicious accounts) right in the Steam overlay browser (**Shift + Tab**), plus the live match: score, rounds, money and end-of-match stats.
+
+- **No ban risk**: CStonx doesn't read game memory, inject anything or modify CS2 files; it only uses official features provided by Valve.
+- **Lightweight**: a single exe under 1 MB.
+- **Signed updates**: in-app updates whose signature isn't valid are rejected.
+
+**Install**: download `CStonx-Setup-X.Y.Z.exe` (or `CStonx-portable.zip`) from the [latest release](https://github.com/CStonx/download/releases/latest), run it (on SmartScreen: *More info* › *Run anyway*), sign in with Steam on [cstonx.thaskow.fr](https://cstonx.thaskow.fr/en) and request access (validated manually during the beta), then paste your personal key in the **Accueil** (Home) tab of the app and launch CS2. Check your download against `SHA256SUMS.txt` with `Get-FileHash <file> -Algorithm SHA256`.
+
+Bugs: [open an issue](https://github.com/CStonx/download/issues/new/choose). Security issues: see the [security policy](SECURITY.md).
 
 ---
 
