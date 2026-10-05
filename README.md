@@ -6,7 +6,8 @@
 
 <p align="center">
   <b>Sache contre qui tu joues.</b><br>
-  Les stats des 10 joueurs de ta partie CS2, directement dans l'overlay Steam.
+  Les stats des 10 joueurs de ta partie CS2, directement dans l'overlay Steam.<br>
+  <a href="https://cstonx.thaskow.fr"><b>cstonx.thaskow.fr</b></a>
 </p>
 
 <p align="center">
@@ -18,6 +19,8 @@
 
 <p align="center">
   <a href="https://github.com/CStonx/download/releases/latest"><img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger-CStonx-4f46e5?style=for-the-badge&logo=windows&logoColor=white" alt="Télécharger CStonx" height="44"></a>
+  &nbsp;
+  <a href="https://cstonx.thaskow.fr"><img src="https://img.shields.io/badge/Site-cstonx.thaskow.fr-0f172a?style=for-the-badge" alt="Site CStonx" height="44"></a>
 </p>
 
 <p align="center">
@@ -26,7 +29,7 @@
 
 ## Ce que fait CStonx
 
-Pendant une partie Premier, Compétitif ou FACEIT, le logiciel repère les joueurs de ta partie, et le site CStonx affiche leurs stats dans le navigateur de l'overlay Steam (**Maj + Tab**).
+Pendant une partie Premier, Compétitif ou FACEIT, le logiciel repère les joueurs de ta partie, et le [site CStonx](https://cstonx.thaskow.fr) affiche leurs stats dans le navigateur de l'overlay Steam (**Maj + Tab**).
 
 - **Les 10 joueurs d'un coup** : Leetify, FACEIT, Premier, Steam, et un indice de confiance pour repérer les comptes suspects.
 - **La partie en direct** : score, rounds, argent, vie et arme du joueur suivi, stats de fin de match.
@@ -91,6 +94,7 @@ Le résultat doit être identique à la ligne correspondante de `SHA256SUMS.txt`
 
 ## Support
 
+- **Le site** : [cstonx.thaskow.fr](https://cstonx.thaskow.fr), avec le [forum](https://cstonx.thaskow.fr/forum) pour les questions et les idées.
 - **Un bug ?** [Ouvre un ticket](https://github.com/CStonx/download/issues/new/choose).
 - **Une faille de sécurité ?** Lis la [politique de sécurité](SECURITY.md) : ne la publie pas dans un ticket.
 
@@ -98,5 +102,5 @@ Le résultat doit être identique à la ligne correspondante de `SHA256SUMS.txt`
 
 <p align="center"><sub>
 Ce dépôt ne contient que les versions publiées du logiciel. CStonx n'est affilié ni à Valve, ni à FACEIT, ni à Leetify.<br>
-Développé par <a href="https://github.com/Thaskow">Thaskow</a> · <a href="LICENSE">Conditions d'utilisation</a>
+Développé par <a href="https://github.com/Thaskow">Thaskow</a> · <a href="https://cstonx.thaskow.fr">cstonx.thaskow.fr</a> · <a href="LICENSE">Conditions d'utilisation</a>
 </sub></p>
