@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Site CStonx
-    url: https://cstonx.thaskow.fr
+    url: https://cstonx.com
     about: Demande d'accès, clé personnelle et forum
   - name: Signaler une faille de sécurité
     url: https://github.com/CStonx/download/security/policy

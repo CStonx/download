@@ -7,7 +7,7 @@
 <p align="center">
   <b>Sache contre qui tu joues.</b><br>
   Les stats des 10 joueurs de ta partie CS2, directement dans l'overlay Steam.<br>
-  <a href="https://cstonx.thaskow.fr"><b>cstonx.thaskow.fr</b></a><br>
+  <a href="https://cstonx.com"><b>cstonx.com</b></a><br>
   <sub><a href="#english">English below</a></sub>
 </p>
 
@@ -21,7 +21,7 @@
 <p align="center">
   <a href="https://github.com/CStonx/download/releases/latest"><img src="https://img.shields.io/badge/T%C3%A9l%C3%A9charger-CStonx-4f46e5?style=for-the-badge&logo=windows&logoColor=white" alt="Télécharger CStonx" height="44"></a>
   &nbsp;
-  <a href="https://cstonx.thaskow.fr"><img src="https://img.shields.io/badge/Site-cstonx.thaskow.fr-0f172a?style=for-the-badge" alt="Site CStonx" height="44"></a>
+  <a href="https://cstonx.com"><img src="https://img.shields.io/badge/Site-cstonx.com-0f172a?style=for-the-badge" alt="Site CStonx" height="44"></a>
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 
 ## Ce que fait CStonx
 
-CStonx est un overlay de stats pour Counter-Strike 2, dans l'esprit de Porofessor pour League of Legends. Pendant une partie Premier, Compétitif ou FACEIT, le logiciel repère les joueurs de ta partie, et le [site CStonx](https://cstonx.thaskow.fr) affiche leurs stats dans le navigateur de l'overlay Steam (**Maj + Tab**).
+CStonx est un overlay de stats pour Counter-Strike 2, dans l'esprit de Porofessor pour League of Legends. Pendant une partie Premier, Compétitif ou FACEIT, le logiciel repère les joueurs de ta partie, et le [site CStonx](https://cstonx.com) affiche leurs stats dans le navigateur de l'overlay Steam (**Maj + Tab**).
 
 - **Les 10 joueurs d'un coup** : Leetify, FACEIT, Premier, Steam, et un indice de confiance pour repérer les comptes suspects.
 - **La partie en direct** : score, rounds, argent, vie et arme du joueur suivi, stats de fin de match.
@@ -48,7 +48,7 @@ Configuration requise : Windows 10 ou 11 (64 bits), Steam et Counter-Strike 2.
 
 1. Télécharge **`CStonx-Setup-X.Y.Z.exe`** (recommandé) ou **`CStonx-portable.zip`** depuis la [dernière version](https://github.com/CStonx/download/releases/latest).
 2. Lance-le. Au premier lancement, Windows peut afficher un avertissement SmartScreen : clique sur **Informations complémentaires**, puis **Exécuter quand même**.
-3. Sur le [site CStonx](https://cstonx.thaskow.fr), connecte-toi avec Steam et **demande l'accès** (l'accès est validé à la main).
+3. Sur le [site CStonx](https://cstonx.com), connecte-toi avec Steam et **demande l'accès** (l'accès est validé à la main).
 4. Une fois validé, récupère ta **clé personnelle** (page « Mon accès » ou Réglages de ta page), colle-la dans le logiciel, onglet **Accueil**, puis **Enregistrer**.
 5. Lance CS2 : l'onglet Accueil du logiciel doit afficher **Tout est prêt**.
 
@@ -95,19 +95,19 @@ Le résultat doit être identique à la ligne correspondante de `SHA256SUMS.txt`
 
 ## Support
 
-- **Le site** : [cstonx.thaskow.fr](https://cstonx.thaskow.fr), avec le [forum](https://cstonx.thaskow.fr/forum) pour les questions et les idées.
+- **Le site** : [cstonx.com](https://cstonx.com), avec le [forum](https://cstonx.com/forum) pour les questions et les idées.
 - **Un bug ?** [Ouvre un ticket](https://github.com/CStonx/download/issues/new/choose).
 - **Une faille de sécurité ?** Lis la [politique de sécurité](SECURITY.md) : ne la publie pas dans un ticket.
 
 ## English
 
-**Know who you're playing against.** CStonx is a free CS2 stats overlay for Windows, a kind of Porofessor for Counter-Strike 2: during a Premier, Competitive or FACEIT match, it identifies the 10 players of your game and the [CStonx website](https://cstonx.thaskow.fr/en) shows their stats (Leetify, FACEIT level and Elo, Premier rating, Steam profile, trust score to spot suspicious accounts) right in the Steam overlay browser (**Shift + Tab**), plus the live match: score, rounds, money and end-of-match stats.
+**Know who you're playing against.** CStonx is a free CS2 stats overlay for Windows, a kind of Porofessor for Counter-Strike 2: during a Premier, Competitive or FACEIT match, it identifies the 10 players of your game and the [CStonx website](https://cstonx.com/en) shows their stats (Leetify, FACEIT level and Elo, Premier rating, Steam profile, trust score to spot suspicious accounts) right in the Steam overlay browser (**Shift + Tab**), plus the live match: score, rounds, money and end-of-match stats.
 
 - **No ban risk**: CStonx doesn't read game memory, inject anything or modify CS2 files; it only uses official features provided by Valve.
 - **Lightweight**: a single exe under 1 MB.
 - **Signed updates**: in-app updates whose signature isn't valid are rejected.
 
-**Install**: download `CStonx-Setup-X.Y.Z.exe` (or `CStonx-portable.zip`) from the [latest release](https://github.com/CStonx/download/releases/latest), run it (on SmartScreen: *More info* › *Run anyway*), sign in with Steam on [cstonx.thaskow.fr](https://cstonx.thaskow.fr/en) and request access (validated manually during the beta), then paste your personal key in the **Accueil** (Home) tab of the app and launch CS2. Check your download against `SHA256SUMS.txt` with `Get-FileHash <file> -Algorithm SHA256`.
+**Install**: download `CStonx-Setup-X.Y.Z.exe` (or `CStonx-portable.zip`) from the [latest release](https://github.com/CStonx/download/releases/latest), run it (on SmartScreen: *More info* › *Run anyway*), sign in with Steam on [cstonx.com](https://cstonx.com/en) and request access (validated manually during the beta), then paste your personal key in the **Accueil** (Home) tab of the app and launch CS2. Check your download against `SHA256SUMS.txt` with `Get-FileHash <file> -Algorithm SHA256`.
 
 Bugs: [open an issue](https://github.com/CStonx/download/issues/new/choose). Security issues: see the [security policy](SECURITY.md).
 
@@ -115,5 +115,5 @@ Bugs: [open an issue](https://github.com/CStonx/download/issues/new/choose). Sec
 
 <p align="center"><sub>
 Ce dépôt ne contient que les versions publiées du logiciel. CStonx n'est affilié ni à Valve, ni à FACEIT, ni à Leetify.<br>
-Développé par <a href="https://github.com/Thaskow">Thaskow</a> · <a href="https://cstonx.thaskow.fr">cstonx.thaskow.fr</a> · <a href="LICENSE">Conditions d'utilisation</a>
+Développé par <a href="https://github.com/Thaskow">Thaskow</a> · <a href="https://cstonx.com">cstonx.com</a> · <a href="LICENSE">Conditions d'utilisation</a>
 </sub></p>
